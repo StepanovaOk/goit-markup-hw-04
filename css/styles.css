@@ -131,7 +131,7 @@ img {
 /*header*/
 /*section1*/
 .title-section {
-  max-width: 1140px;
+  max-width: 1440px;
   margin: auto;
   background-color: #2e2f42;
   padding: 188px 0;
@@ -176,9 +176,7 @@ img {
   border: none;
   border-radius: 4px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .solutions-btn:hover {
   background-color: #404bbf;
@@ -474,7 +472,6 @@ img {
   display: flex;
   justify-content: center;
   gap: 16px;
-  margin-top: 16px;
 }
 
 .footer-icon-container {
