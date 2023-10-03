@@ -75,6 +75,10 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   position: relative;
 }
+
+.studio {
+  color: #404bbf;
+}
 .nav-list-item:active {
   color: #404bbf;
 }
@@ -85,7 +89,7 @@ img {
   color: #404bbf;
 }
 
-.nav-list-item:hover:after {
+.nav-list-item:hover::after {
   color: #404bbf;
   content: "";
   position: absolute;
