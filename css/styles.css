@@ -412,20 +412,7 @@ img {
   overflow: hidden;
 }
 
-.cover-text-container {
-  background: #4d5ae5;
-  position: absolute;
-  margin: 0;
-  top: 0;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  padding: 40px 32px 164px;
-  transform: translateY(100%);
-  transition: transform 250ms;
-}
-
-.portfolio-list-item:hover .cover-text-container {
+.portfolio-list-item:hover .cover-text {
   transform: translateY(0);
 }
 
@@ -436,6 +423,16 @@ img {
   font-weight: 400;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
+  background: #4d5ae5;
+  position: absolute;
+  margin: 0;
+  top: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 40px 32px 164px;
+  transform: translateY(100%);
+  transition: transform 250ms;
 }
 
 /*footer*/
