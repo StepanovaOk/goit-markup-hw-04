@@ -89,7 +89,7 @@ img {
   color: #404bbf;
 }
 
-.nav-list-item:hover::after {
+.nav-list-item::after {
   color: #404bbf;
   content: "";
   position: absolute;
