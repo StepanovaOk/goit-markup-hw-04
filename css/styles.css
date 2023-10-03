@@ -407,7 +407,7 @@ img {
   transition: transform 250ms;
 }
 
-.portfolio-list-item:hover .cover-text {
+.portfolio-list-item:hover .cover-text-container {
   transform: translateY(0);
 }
 
