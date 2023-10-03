@@ -324,9 +324,7 @@ img {
   height: 40px;
   padding: 12px;
   cursor: pointer;
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-link:hover {
@@ -346,9 +344,11 @@ img {
 }
 
 .team-list-icon {
+  fill: #f4f4fd;
 }
 
 /*section3 portfolio*/
+
 .portfolio-section {
   padding: 120px 0;
 }
@@ -407,7 +407,7 @@ img {
   margin: 0;
 }
 
-.under-cover {
+.portfolio-img-item {
   position: relative;
   overflow: hidden;
 }
