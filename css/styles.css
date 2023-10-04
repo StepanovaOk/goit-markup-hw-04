@@ -332,7 +332,7 @@ img {
 .social-link:focus {
   background-color: #404bbf;
 }
-.social-link {
+.team-icon-item .social-link {
   display: flex;
   justify-content: center;
   align-items: center;
