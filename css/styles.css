@@ -76,7 +76,7 @@ img {
   position: relative;
 }
 
-.studio {
+.current {
   color: #404bbf;
 }
 .nav-list-item:active {
@@ -99,8 +99,7 @@ img {
   height: 4px;
   border-radius: 2px;
   background-color: #404bbf;
-  top: 100%;
-  transform: translateY(-100%);
+  width: 100%;
 }
 .address {
   font-style: normal;
@@ -227,7 +226,6 @@ img {
   align-items: center;
   height: 112px;
   margin: 0 auto;
-  padding: 24px 100px;
   border-radius: 4px;
   border: 1px solid #8e8f99;
   background-color: #f4f4fd;
@@ -372,6 +370,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
+  padding: 20px;
   row-gap: 48px;
 }
 .portfolio-list-item {
@@ -380,8 +379,9 @@ img {
 }
 
 .portfolio-list-item:hover {
-  box-shadow: 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
-    0px 2px 1px rgba(46, 47, 66, 0.08);
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 .portfolio-list {
 }
